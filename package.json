@@ -1,0 +1,35 @@
+{
+  "name": "drupal-webkit-starter",
+  "version": "1.0.0",
+  "description": "Complete framework for using nodejs in conjunction with drupal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumildematos/drupal-webkit-starter.git"
+  },
+  "author": "Dumilde Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumildematos/drupal-webkit-starter/issues"
+  },
+  "homepage": "https://github.com/dumildematos/drupal-webkit-starter#readme",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "readable-stream": "^3.6.0",
+    "uglify-es": "^3.3.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-csso": "^4.0.1"
+  }
+}
